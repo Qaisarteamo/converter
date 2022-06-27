@@ -15,16 +15,17 @@ body {
 .container {
   background-color: #fbf7ee;
   width: 550px;
-  height: 550px;
+  height: 650px;
   border-radius: 10px;
 }
 
 .display-area {
   display: block;
-  height: 260px;
+  height: 265px;
   width: 550px;
   border-radius: 10px 10px 0 0;
-  background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
+  background-color:slateblue;
+  //background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
 }
 
 .display-area h1 {
@@ -83,7 +84,7 @@ body {
 .length-box,
 .volume-box,
 .mass-box {
-  line-height: 20px;
+  line-height: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -101,4 +102,15 @@ body {
   .display-area input {
     margin: 0;
   }
+}
+
+button{
+  
+  border: none;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
 }
